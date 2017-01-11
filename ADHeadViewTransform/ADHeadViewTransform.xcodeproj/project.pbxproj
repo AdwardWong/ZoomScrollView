@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F12320A1DC872D900B5C2F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1232091DC872D900B5C2F2 /* main.m */; };
+		2F12320D1DC872D900B5C2F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F12320C1DC872D900B5C2F2 /* AppDelegate.m */; };
+		2F1232101DC872DA00B5C2F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F12320F1DC872DA00B5C2F2 /* ViewController.m */; };
+		2F1232131DC872DA00B5C2F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1232111DC872DA00B5C2F2 /* Main.storyboard */; };
+		2F1232151DC872DA00B5C2F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1232141DC872DA00B5C2F2 /* Assets.xcassets */; };
+		2F1232181DC872DA00B5C2F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1232161DC872DA00B5C2F2 /* LaunchScreen.storyboard */; };
+		2F1232231DC872DA00B5C2F2 /* ADHeadViewTransformTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1232221DC872DA00B5C2F2 /* ADHeadViewTransformTests.m */; };
+		2F12322E1DC872DA00B5C2F2 /* ADHeadViewTransformUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F12322D1DC872DA00B5C2F2 /* ADHeadViewTransformUITests.m */; };
+		2F12323D1DC872ED00B5C2F2 /* UIScrollView+ADHeadImageViewScaleTtransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F12323C1DC872ED00B5C2F2 /* UIScrollView+ADHeadImageViewScaleTtransform.m */; };
+		2F1232401DC8733F00B5C2F2 /* ADTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F12323F1DC8733F00B5C2F2 /* ADTestTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F12321F1DC872DA00B5C2F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F1231FD1DC872D900B5C2F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F1232041DC872D900B5C2F2;
+			remoteInfo = ADHeadViewTransform;
+		};
+		2F12322A1DC872DA00B5C2F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F1231FD1DC872D900B5C2F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F1232041DC872D900B5C2F2;
+			remoteInfo = ADHeadViewTransform;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F1232051DC872D900B5C2F2 /* ADHeadViewTransform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADHeadViewTransform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1232091DC872D900B5C2F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F12320B1DC872D900B5C2F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F12320C1DC872D900B5C2F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F12320E1DC872D900B5C2F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2F12320F1DC872DA00B5C2F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F1232121DC872DA00B5C2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F1232141DC872DA00B5C2F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F1232171DC872DA00B5C2F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F1232191DC872DA00B5C2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F12321E1DC872DA00B5C2F2 /* ADHeadViewTransformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADHeadViewTransformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F1232221DC872DA00B5C2F2 /* ADHeadViewTransformTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADHeadViewTransformTests.m; sourceTree = "<group>"; };
+		2F1232241DC872DA00B5C2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1232291DC872DA00B5C2F2 /* ADHeadViewTransformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADHeadViewTransformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F12322D1DC872DA00B5C2F2 /* ADHeadViewTransformUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADHeadViewTransformUITests.m; sourceTree = "<group>"; };
+		2F12322F1DC872DA00B5C2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F12323B1DC872ED00B5C2F2 /* UIScrollView+ADHeadImageViewScaleTtransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ADHeadImageViewScaleTtransform.h"; sourceTree = "<group>"; };
+		2F12323C1DC872ED00B5C2F2 /* UIScrollView+ADHeadImageViewScaleTtransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ADHeadImageViewScaleTtransform.m"; sourceTree = "<group>"; };
+		2F12323E1DC8733F00B5C2F2 /* ADTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTestTableViewController.h; sourceTree = "<group>"; };
+		2F12323F1DC8733F00B5C2F2 /* ADTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTestTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F1232021DC872D900B5C2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F12321B1DC872DA00B5C2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1232261DC872DA00B5C2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F1231FC1DC872D900B5C2F2 = {
+			isa = PBXGroup;
+			children = (
+				2F1232071DC872D900B5C2F2 /* ADHeadViewTransform */,
+				2F1232211DC872DA00B5C2F2 /* ADHeadViewTransformTests */,
+				2F12322C1DC872DA00B5C2F2 /* ADHeadViewTransformUITests */,
+				2F1232061DC872D900B5C2F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F1232061DC872D900B5C2F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F1232051DC872D900B5C2F2 /* ADHeadViewTransform.app */,
+				2F12321E1DC872DA00B5C2F2 /* ADHeadViewTransformTests.xctest */,
+				2F1232291DC872DA00B5C2F2 /* ADHeadViewTransformUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F1232071DC872D900B5C2F2 /* ADHeadViewTransform */ = {
+			isa = PBXGroup;
+			children = (
+				2F12320B1DC872D900B5C2F2 /* AppDelegate.h */,
+				2F12320C1DC872D900B5C2F2 /* AppDelegate.m */,
+				2F12320E1DC872D900B5C2F2 /* ViewController.h */,
+				2F12320F1DC872DA00B5C2F2 /* ViewController.m */,
+				2F12323B1DC872ED00B5C2F2 /* UIScrollView+ADHeadImageViewScaleTtransform.h */,
+				2F12323C1DC872ED00B5C2F2 /* UIScrollView+ADHeadImageViewScaleTtransform.m */,
+				2F12323E1DC8733F00B5C2F2 /* ADTestTableViewController.h */,
+				2F12323F1DC8733F00B5C2F2 /* ADTestTableViewController.m */,
+				2F1232111DC872DA00B5C2F2 /* Main.storyboard */,
+				2F1232141DC872DA00B5C2F2 /* Assets.xcassets */,
+				2F1232161DC872DA00B5C2F2 /* LaunchScreen.storyboard */,
+				2F1232191DC872DA00B5C2F2 /* Info.plist */,
+				2F1232081DC872D900B5C2F2 /* Supporting Files */,
+			);
+			path = ADHeadViewTransform;
+			sourceTree = "<group>";
+		};
+		2F1232081DC872D900B5C2F2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F1232091DC872D900B5C2F2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2F1232211DC872DA00B5C2F2 /* ADHeadViewTransformTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F1232221DC872DA00B5C2F2 /* ADHeadViewTransformTests.m */,
+				2F1232241DC872DA00B5C2F2 /* Info.plist */,
+			);
+			path = ADHeadViewTransformTests;
+			sourceTree = "<group>";
+		};
+		2F12322C1DC872DA00B5C2F2 /* ADHeadViewTransformUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F12322D1DC872DA00B5C2F2 /* ADHeadViewTransformUITests.m */,
+				2F12322F1DC872DA00B5C2F2 /* Info.plist */,
+			);
+			path = ADHeadViewTransformUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F1232041DC872D900B5C2F2 /* ADHeadViewTransform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1232321DC872DA00B5C2F2 /* Build configuration list for PBXNativeTarget "ADHeadViewTransform" */;
+			buildPhases = (
+				2F1232011DC872D900B5C2F2 /* Sources */,
+				2F1232021DC872D900B5C2F2 /* Frameworks */,
+				2F1232031DC872D900B5C2F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADHeadViewTransform;
+			productName = ADHeadViewTransform;
+			productReference = 2F1232051DC872D900B5C2F2 /* ADHeadViewTransform.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F12321D1DC872DA00B5C2F2 /* ADHeadViewTransformTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1232351DC872DA00B5C2F2 /* Build configuration list for PBXNativeTarget "ADHeadViewTransformTests" */;
+			buildPhases = (
+				2F12321A1DC872DA00B5C2F2 /* Sources */,
+				2F12321B1DC872DA00B5C2F2 /* Frameworks */,
+				2F12321C1DC872DA00B5C2F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F1232201DC872DA00B5C2F2 /* PBXTargetDependency */,
+			);
+			name = ADHeadViewTransformTests;
+			productName = ADHeadViewTransformTests;
+			productReference = 2F12321E1DC872DA00B5C2F2 /* ADHeadViewTransformTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F1232281DC872DA00B5C2F2 /* ADHeadViewTransformUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F1232381DC872DA00B5C2F2 /* Build configuration list for PBXNativeTarget "ADHeadViewTransformUITests" */;
+			buildPhases = (
+				2F1232251DC872DA00B5C2F2 /* Sources */,
+				2F1232261DC872DA00B5C2F2 /* Frameworks */,
+				2F1232271DC872DA00B5C2F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F12322B1DC872DA00B5C2F2 /* PBXTargetDependency */,
+			);
+			name = ADHeadViewTransformUITests;
+			productName = ADHeadViewTransformUITests;
+			productReference = 2F1232291DC872DA00B5C2F2 /* ADHeadViewTransformUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F1231FD1DC872D900B5C2F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Adward;
+				TargetAttributes = {
+					2F1232041DC872D900B5C2F2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					2F12321D1DC872DA00B5C2F2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F1232041DC872D900B5C2F2;
+					};
+					2F1232281DC872DA00B5C2F2 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2F1232041DC872D900B5C2F2;
+					};
+				};
+			};
+			buildConfigurationList = 2F1232001DC872D900B5C2F2 /* Build configuration list for PBXProject "ADHeadViewTransform" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F1231FC1DC872D900B5C2F2;
+			productRefGroup = 2F1232061DC872D900B5C2F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F1232041DC872D900B5C2F2 /* ADHeadViewTransform */,
+				2F12321D1DC872DA00B5C2F2 /* ADHeadViewTransformTests */,
+				2F1232281DC872DA00B5C2F2 /* ADHeadViewTransformUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F1232031DC872D900B5C2F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1232181DC872DA00B5C2F2 /* LaunchScreen.storyboard in Resources */,
+				2F1232151DC872DA00B5C2F2 /* Assets.xcassets in Resources */,
+				2F1232131DC872DA00B5C2F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F12321C1DC872DA00B5C2F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1232271DC872DA00B5C2F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F1232011DC872D900B5C2F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F12323D1DC872ED00B5C2F2 /* UIScrollView+ADHeadImageViewScaleTtransform.m in Sources */,
+				2F1232101DC872DA00B5C2F2 /* ViewController.m in Sources */,
+				2F1232401DC8733F00B5C2F2 /* ADTestTableViewController.m in Sources */,
+				2F12320D1DC872D900B5C2F2 /* AppDelegate.m in Sources */,
+				2F12320A1DC872D900B5C2F2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F12321A1DC872DA00B5C2F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1232231DC872DA00B5C2F2 /* ADHeadViewTransformTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F1232251DC872DA00B5C2F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F12322E1DC872DA00B5C2F2 /* ADHeadViewTransformUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F1232201DC872DA00B5C2F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F1232041DC872D900B5C2F2 /* ADHeadViewTransform */;
+			targetProxy = 2F12321F1DC872DA00B5C2F2 /* PBXContainerItemProxy */;
+		};
+		2F12322B1DC872DA00B5C2F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F1232041DC872D900B5C2F2 /* ADHeadViewTransform */;
+			targetProxy = 2F12322A1DC872DA00B5C2F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F1232111DC872DA00B5C2F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F1232121DC872DA00B5C2F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F1232161DC872DA00B5C2F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F1232171DC872DA00B5C2F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F1232301DC872DA00B5C2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F1232311DC872DA00B5C2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F1232331DC872DA00B5C2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADHeadViewTransform/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adward.www.ADHeadViewTransform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2F1232341DC872DA00B5C2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADHeadViewTransform/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adward.www.ADHeadViewTransform;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2F1232361DC872DA00B5C2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADHeadViewTransformTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adward.www.ADHeadViewTransformTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADHeadViewTransform.app/ADHeadViewTransform";
+			};
+			name = Debug;
+		};
+		2F1232371DC872DA00B5C2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADHeadViewTransformTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adward.www.ADHeadViewTransformTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADHeadViewTransform.app/ADHeadViewTransform";
+			};
+			name = Release;
+		};
+		2F1232391DC872DA00B5C2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ADHeadViewTransformUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adward.www.ADHeadViewTransformUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ADHeadViewTransform;
+			};
+			name = Debug;
+		};
+		2F12323A1DC872DA00B5C2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ADHeadViewTransformUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.adward.www.ADHeadViewTransformUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ADHeadViewTransform;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F1232001DC872D900B5C2F2 /* Build configuration list for PBXProject "ADHeadViewTransform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1232301DC872DA00B5C2F2 /* Debug */,
+				2F1232311DC872DA00B5C2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F1232321DC872DA00B5C2F2 /* Build configuration list for PBXNativeTarget "ADHeadViewTransform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1232331DC872DA00B5C2F2 /* Debug */,
+				2F1232341DC872DA00B5C2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F1232351DC872DA00B5C2F2 /* Build configuration list for PBXNativeTarget "ADHeadViewTransformTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1232361DC872DA00B5C2F2 /* Debug */,
+				2F1232371DC872DA00B5C2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2F1232381DC872DA00B5C2F2 /* Build configuration list for PBXNativeTarget "ADHeadViewTransformUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F1232391DC872DA00B5C2F2 /* Debug */,
+				2F12323A1DC872DA00B5C2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F1231FD1DC872D900B5C2F2 /* Project object */;
+}
